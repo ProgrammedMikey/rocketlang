@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300;1,400;1,600;1,700&family=Lato&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -5,4 +12,13 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.font-exo {
+  font-family: 'Exo 2', sans-serif;
+  font-weight:700;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
 }
