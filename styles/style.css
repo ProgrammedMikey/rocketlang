@@ -196,3 +196,45 @@ header ul li a {
   left: inherit;
   right: -30px;
 }
+
+.sec3 {
+  padding: 150px 0 0;
+}
+.sec3 h2{
+  text-transform: uppercase;
+  max-width: 60%;
+}
+.sec3-slider{
+  margin-top: 9px;
+}
+
+.slick-arrow{
+  position: absolute;
+}
+.slick-prev{
+  left: inherit;
+  right: 180px;
+}
+.slick-next{
+  right: 90px;
+}
+.slick-next:before,
+.slick-prev:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #F0F8FF url(../img/arrow-next.svg) no-repeat;
+  background-size: 14px;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid #fff;
+  opacity: 1;
+}
+.slick-prev:before{
+  background: transparent url(../img/arrow-prev.svg) no-repeat;
+  background-size: 14px;
+  background-position: center;
+}
